@@ -3,6 +3,7 @@
 const lang = document.getElementById('lang')
 const title = document.getElementById('web-title')
 const blogClick = document.getElementById('blog-link')
+const catchCopy = document.getElementById('catch-copy')
 
 const titleList = [
     'Juno | Currently under development...',
@@ -13,9 +14,10 @@ const titleList = [
 
 let i = 0
 setInterval(() => {
-    document.title = titleList[i];
-    index = (index + 1) % titleList.length;
-}, 10000);
+    document.title = titleList[i]
+    i = (i + 1) % titleList.length
+    console.log(titleList[i])
+}, 10000)
 
 // Blogの外部リンク
 function externalLink(message) {
