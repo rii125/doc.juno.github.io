@@ -2,6 +2,9 @@ body {
     margin-left: 0px;
     margin-right: 0px;
 }
+
+/* ---- HeaderCSS ---- */
+
 .header-line {
     border-bottom: 1px solid #ccc;
     padding-bottom: 1rem;
@@ -65,4 +68,11 @@ header {
     color: #ffffff;
     background-color: #007acc;
     height: 1.7rem;
+}
+
+/* ---- MainCSS ---- */
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
 }
