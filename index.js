@@ -4,7 +4,7 @@
 const lang = document.getElementById('lang')
 const title = document.getElementById('web-title')
 const blogClick = document.getElementById('blog-link')
-const catchCopy = document.getElementById('catch-copy')
+const catchCopy = document.getElementById('catchCopy')
 
 // Array variable
 const titleList = [
@@ -16,16 +16,22 @@ const titleList = [
 
 // Const variable
 const changeMs = 1000  // 1000 = 1sec
-const sec = 3
+const sec = 10
 const titleCount = sec * changeMs
 
 // Can change variable
 let i = 0
 
+/**
+* @test console.log(catchCopy.innerText)
+*
+*/
+
 setInterval(() => {
     document.title = titleList[i]
+    catchCopy.innerText = titleList[i]
     i = (i + 1) % titleList.length
-    console.log(titleList[i])
+    /** @test console.log(titleList[i]) */
 }, titleCount)
 
 // Blog external link
