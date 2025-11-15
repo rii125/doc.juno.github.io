@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html id="lang" lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juno</title>
+    <title id="web-title">Juno</title>
     <link rel="icon" href="favicon.ico?v=1">
     <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
 
 </head>
 <body>
@@ -22,7 +23,7 @@
                 <nav class="header-menu">
                     <a class="header-download header-list" href="#">Download</a>
                     <a class="header-document header-list" href="#">Document</a>
-                    <a class="header-blog header-list" href="https://zenn.dev/rii_125/scraps/abdff2aba9cca2" target="_blank" rel="noopener">Blog</a>
+                    <a class="header-blog header-list" id="blog-link" onclick="externalLink('externalLink')" href="https://zenn.dev/rii_125/scraps/abdff2aba9cca2" target="_blank" rel="noopener">Blog</a>
                 </nav>
                 <form action="">
                     <input class="search" type="search" name="search" placeholder="juno search">
@@ -30,6 +31,9 @@
                 </form>
             </nav>
         </header>
+        <main class="main">
+
+        </main>
     </div>
 </body>
 </html>
