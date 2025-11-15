@@ -2,12 +2,10 @@ body {
     margin-left: 0px;
     margin-right: 0px;
 }
-
 .header-line {
     border-bottom: 1px solid #ccc;
     padding-bottom: 1rem;
 }
-
 header {
     box-sizing: border-box;
     width: 100%;
@@ -17,28 +15,23 @@ header {
         color: #000;
     }
 }
-
 .header-nav {
     display: flex;
     gap: calc(var(--spacing, .5rem));
     align-items: center;
 }
-
 .header-icon {
     width: 55px;
     height: 55px;
 }
-
 .header-title {
     /* 800px * 405px */
     width: 80px;
     height: 40.5px;
 }
-
 .header-spacer {
     margin-right: 50%;
 }
-
 .header-menu {
     padding: 0;
     flex-direction: row;
@@ -47,12 +40,10 @@ header {
 .header-menu :hover {
     text-decoration: underline;
 }
-
 .header-list {
     padding-left: 30px;
     padding-right: 30px;
 }
-
 .search {
     text-align: left;
     padding-left: 1rem;
@@ -64,11 +55,9 @@ header {
     outline: none;
     border: 1px solid #ccc;
 }
-
 .search :focus {
     box-shadow: 0 0 5px #007acc;
 }
-
 .search-button {
     cursor: pointer;
     border-radius: 9999px;
