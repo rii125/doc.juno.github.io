@@ -57,6 +57,7 @@ header {
 }
 .header-menu :hover {
     text-decoration: underline;
+    color: #FF3366;
 }
 .header-list {
     padding-left: 30px;
