@@ -3,6 +3,15 @@ body {
     margin-right: 0px;
 }
 
+
+.body {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "width" 100;
+}
 /* ---- HeaderCSS ---- */
 
 .header-line {
@@ -12,7 +21,7 @@ body {
 header {
     box-sizing: border-box;
     width: 100%;
-    padding-inline: calc( var(--spacing, .25rem ) * 30);
+    /* padding-inline: calc( var(--spacing, .25rem ) * 30); */
     a {
         text-decoration: none;
         color: #000;
@@ -31,6 +40,12 @@ header {
     /* 800px * 405px */
     width: 80px;
     height: 40.5px;
+}
+.spacer {
+    padding-left: 3%;
+}
+.spacer-2 {
+    padding: 0% 25%;
 }
 .header-spacer {
     margin-right: 50%;
