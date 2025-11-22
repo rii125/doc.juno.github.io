@@ -15,24 +15,8 @@ const titleList = [
 ]
 
 // Const variable
-const changeMs = 1000  // 1000 = 1sec
-const sec = 10
-const titleCount = sec * changeMs
 
-// Can change variable
-let i = 0
-
-/**
-* @test console.log(catchCopy.innerText)
-*
-*/
-
-setInterval(() => {
-    document.title = titleList[i]
-    catchCopy.innerText = titleList[i]
-    i = (i + 1) % titleList.length
-    /** @test console.log(titleList[i]) */
-}, titleCount)
+// Let variable
 
 // Blog external link
 function externalLink(message) {
